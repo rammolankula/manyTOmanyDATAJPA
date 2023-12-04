@@ -1,10 +1,12 @@
 # manyTOmanyDATAJPA
 Here i worked on many to many mapping 
-#### 1.many students can learn many courses
-#### 2.parent.class is student
-#### 3.child.class is courses
-#### 4.set the data for many courses
-#### 5.set the data for many students and make  FORIGN  KEY TABLE separtely using @JOINTABLE
+<pre>
+&#8594; 1.many students can learn many courses
+&#8594; 2.parent.class is student
+&#8594; 3.child.class is courses
+&#8594; 4.set the data for many courses
+&#8594; 5.set the data for many students and make  FORIGN  KEY TABLE separtely using @JOINTABLE
+</pre>
 
 	@ManyToMany
 	@JoinTable(
